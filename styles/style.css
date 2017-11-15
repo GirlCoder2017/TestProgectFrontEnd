@@ -1,0 +1,100 @@
+
+#avatar{
+    width: 80%;
+    height: 90%;
+}
+.title{
+    background-color:#fffbc8 ;
+    width: 300px;
+
+    border-color: #cecabf;
+    border-style: solid;
+    line-height: 18px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+}
+.header b{
+    margin-top: 1px;
+}
+#despiction{
+    margin-right: 1px;
+}
+.manual_booking{
+    background-color:#b1e19b;
+    width: 90%;
+}
+.package_tours{
+background-color: #ace2f8;
+    width: 60%;
+}
+.hotels{
+    background-color: #ace2f8;
+    width: 25%;
+}
+#services{
+    margin-right: 300px;
+}
+
+#rewiews::after{
+   /* visibility:hidden; */
+
+}
+#rewiew{
+    visibility:hidden;
+}
+
+#write{
+    background-color:#fdd639;
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    border-radius: 18px;
+    border: none;
+    /*width: 250px;*/
+    width: 40%;
+    height: 45px;
+
+
+
+}
+#onerewiews .row .col-md-12 {
+    background: #f2fbff;
+    border-radius: 5px;
+    border-top: 3px solid #f2fbff;
+    -moz-border-radius: 5px;
+    position: relative;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#onerewiews .row .col-md-12 ::before{
+    content: '';
+    border: 12px solid transparent ;
+    border-bottom: 12px solid #f2fbff;
+    position: absolute;
+    left: 5%;
+    margin-left: -12px;
+    top: -27px;
+    width: 0;
+
+}
+
+#test{
+    background-color: #f2f2f2;
+    margin-top: 30px;
+
+}
+#form{
+
+}
+
+#blockSubmit{
+    right: -40%;
+}
+.col-xs-8{
+    right: -60%;
+}

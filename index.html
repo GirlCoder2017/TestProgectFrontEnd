@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="moment.js"> </script>
+    <!--  include bootstrap!-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="javaScript/handlers.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>TestTask</title>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-3 .col-xs-5">  <img src="img/face.png" id="avatar" alt="avatar" >
+      </div>
+        <div class="col-md-3 .col-xs-5" id="despiction" > <b>Вероника Ростова <br/> </b> <p>Менеджер по продажам</p>
+            <div class="title" >
+                <p>Подберу для вас самые лучшие предложения. <br/>
+                    Мои услуги абсолютно бесплатны</p>
+            </div>
+
+        </div>
+     </div>
+    <div class="row">
+        <div class="col-md-3 .col-xs-5"> </div>
+        <div class="col-md-6 .col-xs-8">
+             <p id="services">Услуг</p>
+            <hr>
+            <div>
+               <div class="row">
+                 <div class="col-md-8 .col-xs-10" >
+                     <p class="manual_booking" >Ручное бронирование</p>
+                 </div>
+                 <div class="col-md-1">
+                     <b>11</b>
+                 </div>
+               </div>
+                <div class="row">
+                    <div class="col-md-8 .col-xs-10" >
+                        <p class="package_tours" >Пакетные туры</p>
+                    </div>
+                    <div class="col-md-1 .col-xs-5">
+                        <b>3</b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 .col-xs-10" >
+                        <p class="hotels" >Отели</p>
+                    </div>
+                    <div class="col-md-1 .col-xs-3">
+                        <b>1</b>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-8 .col-xs-10" >
+                        <b>Всего </b>
+                    </div>
+                    <div class="col-md-1 .col-xs-3">
+                        <b>15</b>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Comments !-->
+<div class="container" >
+
+    <div class="row">
+        <div class="col-md-8 .col-xs-10">
+            <b>Последние отзывы</b>
+            <a href="#">Все отзывы</a>
+        </div>
+        <div class="col-md-2 .col-xs-5">
+          <a href="#" id="like">
+              <img src="img/like.png"  alt="like">
+          </a>
+          <label id="count" >131</label>
+
+           <img src="img/comments.png" alt="comments"> <label id="countcomment">14</label>
+         </div>
+    </div>
+
+<div class="container" id="reviews">
+<div id="onerewiews">
+
+    <div class="row">
+    <div class="col-md-4 .col-xs-6">
+        <b> Лилия Семёновна</b>
+    </div>
+    <div class="col-md-4 .col-xs-6">
+        14 September, 2011
+    </div>
+</div>
+    <div class="row">
+        <div class="col-md-12 .col-xs-12" >
+            <p>Вероника,здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент? </p>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+<div class="container" id="test"  >
+    <form>
+        <div class="form-group" id="form">
+            <textarea class="form-control" id="Textarea" rows="3"></textarea>
+            <div class="col-md-6 .col-xs-8" id="blockSubmit">
+            <button type="button"   id="write"> <b>Написать консультанту</b> </button>
+                <!--<a href="#" id="write" ><b>Написать консультанту</b> </a>-->
+            </div>
+        </div>
+    </form>
+</div>
+
+</div>
+<div id="rewiew">
+    <div class="row">
+        <div class="col-md-4 .col-xs-6">
+            <b> %username%</b>
+        </div>
+        <div class="col-md-4 .col-xs-6">
+           %date%
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 .col-xs-12" >
+            <p>%text% </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
